@@ -9,7 +9,7 @@ const publicDir = path.join(__dirname, 'eulaPages')
 app.get(['/', '/en'], function (req, res) {
   res.sendFile(publicDir + '/en.html')
 })
-app.get('/es', function (req, res) {
+app.get('/es_PR', function (req, res) {
   res.sendFile(publicDir + '/es_PR.html')
 })
 app.get('/ht', function (req, res) {
